@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07d6255c-c2f3-46ce-808b-638d636a60cf" name="Changes" comment="">
+    <list default="true" id="7b62720d-6568-4866-ba59-268e4082cdf8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/SearchForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2oZPt9NWmiEiFwwgeVgOH30EkKz" />
+  <component name="ProjectId" id="2p2JyLOeo0mtG7OvobJDlFTtxdF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,25 +32,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/mohamedcake/Documents/dynamic_sites/kulmiye_vote_app",
+    "last_opened_file_path": "/home/cakecodes/Documents/programming_files/NextJS/launchhub/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/cakecodes/.config/JetBrains/WebStorm2024.3/node/versions/22.11.0/bin/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "ts.external.directory.path": "/home/mohamedcake/Documents/dynamic_sites/launchhub/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/cakecodes/Documents/programming_files/NextJS/launchhub/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/app/(dashboard)" />
-      <recent name="$PROJECT_DIR$/app/(root)" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/components" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -57,21 +65,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="07d6255c-c2f3-46ce-808b-638d636a60cf" name="Changes" comment="" />
-      <created>1731074336441</created>
+      <changelist id="7b62720d-6568-4866-ba59-268e4082cdf8" name="Changes" comment="" />
+      <created>1731958493968</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731074336441</updated>
-      <workItem from="1731074337749" duration="4152000" />
-      <workItem from="1731079738743" duration="960000" />
-      <workItem from="1731080722545" duration="838000" />
-      <workItem from="1731081573932" duration="1068000" />
-      <workItem from="1731082652314" duration="9131000" />
-      <workItem from="1731158111455" duration="8999000" />
-      <workItem from="1731343084717" duration="6802000" />
-      <workItem from="1731402675929" duration="795000" />
-      <workItem from="1731493793324" duration="3003000" />
-      <workItem from="1731577329465" duration="11410000" />
+      <updated>1731958493968</updated>
+      <workItem from="1731958498091" duration="19170000" />
+      <workItem from="1732055087881" duration="5241000" />
+      <workItem from="1732060410382" duration="3880000" />
     </task>
     <servers />
   </component>
@@ -82,9 +83,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/layout.tsx</url>
-          <properties lambdaOrdinal="-1" />
+          <url>file://$PROJECT_DIR$/components/Navbar.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/SearchForm.tsx</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/sanity/lib/client.ts</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
