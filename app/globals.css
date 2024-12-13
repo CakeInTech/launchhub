@@ -7,14 +7,14 @@
 @layer base {
   :root {
     --radius: 0.5rem;
-    --primary-color: #39B6AB; /* Main teal accent color */
-    --primary-light: #A8DED7; /* Lighter teal shade */
-    --primary-dark: #2A8A82; /* Darker teal shade */
-    --secondary-color: #FBF5C2; /* Soft yellow to complement the teal */
-    --black-light: #4D4D4D;
-    --black: #1E1E1E;
-    --white-light: #F5F5F5;
-    --white: #FFFFFF;
+    --primary-color: #39b6ab; /* Main teal accent color */
+    --primary-light: #a8ded7; /* Lighter teal shade */
+    --primary-dark: #2a8a82; /* Darker teal shade */
+    --secondary-color: #fbf5c2; /* Soft yellow to complement the teal */
+    --black-light: #4d4d4d;
+    --black: #1e1e1e;
+    --white-light: #f5f5f5;
+    --white: #ffffff;
   }
 }
 
@@ -99,7 +99,7 @@
     @apply font-normal text-[16px] line-clamp-2 my-3 text-black-100 break-all;
   }
 
-  startup-card_img {
+  .startup-card_img {
     @apply w-full h-[164px] rounded-[10px] object-cover;
   }
 
@@ -119,14 +119,27 @@
     @apply size-[50px] rounded-full bg-black flex justify-center items-center !important;
   }
 
+  /* view */
+  .view-container {
+    @apply flex justify-end items-center mt-5 fixed bottom-3 right-3;
+  }
+
+  .view-text {
+    @apply font-medium text-[16px] bg-primary-100 px-4 py-2 rounded-lg capitalize;
+  }
+
+  .category-tag {
+    @apply font-medium text-[16px] bg-primary-100 px-4 py-2 rounded-full;
+  }
+
   /* Miscellaneous */
   .pattern {
     background-image: linear-gradient(
-            to right,
-            transparent 49.5%,
-            rgba(251, 232, 67, 0.2) 49.5%,
-            rgba(251, 232, 67, 0.6) 50.5%,
-            transparent 50.5%
+      to right,
+      transparent 49.5%,
+      rgba(251, 232, 67, 0.2) 49.5%,
+      rgba(251, 232, 67, 0.6) 50.5%,
+      transparent 50.5%
     );
     background-size: 5% 100%;
     background-position: center;
