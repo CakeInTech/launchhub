@@ -13,7 +13,7 @@ const Header = async () => {
         <div className="flex items-center gap-5 text-black">
           {session && session?.user ? (
             <>
-              <Link href="/startup">
+              <Link href="/startup/create">
                 <span>Create</span>
               </Link>
 
