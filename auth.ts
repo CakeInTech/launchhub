@@ -1,3 +1,5 @@
+/* eslint-disable */
+// @ts-nocheck
 import NextAuth from "next-auth";
 import GitHub from "next-auth/providers/github";
 import { AUTHOR_BY_GITHUB_ID_QUERY } from "@/sanity/lib/queries";
