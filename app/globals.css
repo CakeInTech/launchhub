@@ -54,11 +54,17 @@
   .section_container {
     @apply px-6 py-10 max-w-7xl mx-auto;
   }
+
   .card_grid {
     @apply grid md:grid-cols-3 sm:grid-cols-2 gap-5;
   }
+
+  .card_grid-sm {
+    @apply grid sm:grid-cols-2 gap-5;
+  }
+
   .no-result {
-    @apply text-[var(--black-light)] text-sm font-normal;
+    @apply text-black-100 text-sm font-normal;
   }
 
   /* Headings */
@@ -93,20 +99,27 @@
 
   /* Startup Card */
   .startup-card {
-    @apply bg-[var(--white)] border-[5px] border-[var(--black)] py-6 px-5 rounded-[22px] shadow-200 hover:border-[var(--primary-color)] transition-all duration-500 hover:shadow-300 hover:bg-[var(--primary-light)];
+    @apply bg-white border-[5px] border-black py-6 px-5 rounded-[22px] shadow-200 hover:border-primary transition-all duration-500 hover:shadow-300 hover:bg-primary-100;
   }
+
   .startup-card_date {
-    @apply font-medium text-[16px] bg-[var(--primary-light)] px-4 py-2 rounded-full group-hover:bg-[var(--white-light)];
+    @apply font-medium text-[16px] bg-primary-100 px-4 py-2 rounded-full group-hover:bg-white-100;
   }
-  .startup-card_btn {
-    @apply rounded-full bg-[var(--black-light)] font-medium text-[16px] text-[var(--white)] px-5 py-3;
-  }
+
   .startup-card_desc {
     @apply font-normal text-[16px] line-clamp-2 my-3 text-black-100 break-all;
   }
 
   .startup-card_img {
     @apply w-full h-[164px] rounded-[10px] object-cover;
+  }
+
+  .startup-card_btn {
+    @apply rounded-full bg-black-200 font-medium text-[16px] text-white px-5 py-3 !important;
+  }
+
+  .startup-card_skeleton {
+    @apply w-full h-96 rounded-[22px] bg-zinc-400;
   }
 
   /* Buttons and Form Fields */

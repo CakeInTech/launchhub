@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b62720d-6568-4866-ba59-268e4082cdf8" name="Changes" comment="" />
+    <list default="true" id="7b62720d-6568-4866-ba59-268e4082cdf8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +75,7 @@
       <workItem from="1732097234575" duration="1238000" />
       <workItem from="1732904365726" duration="989000" />
       <workItem from="1735302689144" duration="10925000" />
-      <workItem from="1735336008301" duration="5697000" />
+      <workItem from="1735336008301" duration="7734000" />
     </task>
     <servers />
   </component>
@@ -82,10 +85,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/components/Navbar.tsx</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/components/SearchForm.tsx</url>
           <option name="timeStamp" value="2" />
