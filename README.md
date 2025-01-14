@@ -38,7 +38,7 @@ Ensure you have the following installed:
 ### Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/cakeintech/launchhub.git
+   git clone git@github.com:CakeInTech/launchhub.git
    ```
 
 2. **Navigate to the Project Directory**:
