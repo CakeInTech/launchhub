@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LaunchHub
+
+Welcome to **LaunchHub**, a platform designed to help entrepreneurs pitch their startups, connect with others, and discover innovative ideas. This README file will guide you through the project setup, features, and provide due credits to the resources that made this project possible.
+
+## Live Application
+Check out the live version of the app here: [LaunchHub](https://launchhub-gamma.vercel.app)
+
+---
+
+## Table of Contents
+1. [Features](#features)
+2. [Getting Started](#getting-started)
+3. [Installation](#installation)
+4. [Credits](#credits)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+---
+
+## Features
+- **Post Your Startup**: Share your innovative ideas with the world.
+- **Discover Startups**: Browse and search for startups from other users.
+- **User Accounts**: Create an account to manage your startups and profile.
+- **View Profiles**: Explore other users' profiles and their posts.
+- **GitHub Authentication**: Log in easily using your GitHub account.
+
+---
 
 ## Getting Started
+Follow these steps to set up the project locally.
 
-First, run the development server:
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (v16.x or later)
+- npm (v7.x or later) or yarn
+- Git
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/cakeintech/launchhub.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd launchhub
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+   Or, if using yarn:
+   ```bash
+   yarn install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Environment Variables**:
+   Create a `.env.local` file in the root directory and add the required environment variables. Example:
+   ```env
+   NEXT_PUBLIC_API_URL=https://api.example.com
+   GITHUB_CLIENT_ID=your-github-client-id
+   GITHUB_CLIENT_SECRET=your-github-client-secret
+   SANITY_PROJECT_ID=your-sanity-project-id
+   SANITY_DATASET=your-sanity-dataset
+   SANITY_API_TOKEN=your-sanity-api-token
+   ```
 
-## Learn More
+5. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
+   Or, if using yarn:
+   ```bash
+   yarn dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+   Your application will be available at `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. **Build for Production** (Optional):
+   ```bash
+   npm run build
+   npm start
+   ```
+   Or, if using yarn:
+   ```bash
+   yarn build
+   yarn start
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Credits
+This project was inspired and guided by [@jsMastery](https://github.com/adrianhajdin), a fantastic YouTube channel for learning modern technologies like Next.js. Special thanks to Adrian for the tutorials, which were instrumental in building LaunchHub.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Additionally, this project utilized **Sanity.io** as the backend for managing and storing content. Sanity's powerful APIs and flexible content schema made it an ideal choice for this project.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project also provided a hands-on opportunity to dive deep into Next.js and explore its advanced features, including:
+- Server-side rendering (SSR)
+- Static site generation (SSG)
+- API routes
+- Performance optimizations
+- Third-party authentication with GitHub
+
+---
+
+## Contributing
+Contributions are welcome! If you'd like to contribute:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add your feature'
+   ```
+4. Push the branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Open a pull request.
+
+---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for exploring LaunchHub! 🚀
